@@ -1,0 +1,11 @@
+{
+  "name": "suite-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "~2.8.8"
+  }
+}

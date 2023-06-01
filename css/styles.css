@@ -1,0 +1,39 @@
+/* fontes */
+@font-face {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/Epilogue/Epilogue-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../assets/fonts/Epilogue/Epilogue-Bold.ttf) format("truetype");
+}
+
+/* variáveis */
+:root {
+  --dark-blue: #172339;
+  --grey: #49566d;
+  --cream: #f3ede7;
+  --cream-white: #faf8f6;
+
+  --lavender: #a060ff;
+  --steel-pink: #cb30e3;
+  --pastel-orange: #ffa84e;
+}
+
+/* globais */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
