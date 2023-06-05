@@ -15,11 +15,105 @@
     <title>Frontend Mentor | Suite landing page</title>
   </head>
   <body>
-    Request Beta Access A super solution for your business. Our marketing and
-    sales automations help you scale your outreach to get more leads for your
-    company. Request Beta Access 2K+ Companies 8 Languages 1.2M Leads It just
-    works. “I really like how it is an all-in-one solution that handle many of
-    the tasks that you would normally need separate tools to do the same job.
-    This thing is a miracle worker.” Jeremy Robinson CMO, Fylo Copyright - Suite
+    <header class="header">
+      <nav>
+        <a href="#">
+          <img class="logo" src="./assets/images/logo.svg" alt="Suite logo." />
+        </a>
+        <a class="header__apply" href="#">Request Beta Access</a>
+      </nav>
+      <div class="hero">
+        <section class="hero__cta">
+          <h1>
+            A
+            <strong>super solution</strong>
+            for your <strong>business.</strong>
+          </h1>
+          <p>
+            Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.
+          </p>
+          <a href="#">Request Beta Access</a>
+        </section>
+        <img
+          class="hero__image"
+          srcset="
+            ./assets/images/image-hero-portrait.webp  350w,
+            ./assets/images/image-hero-landscape.webp 343w
+          "
+          sizes="(min-width: 768px) 350px, 343px"
+          src="./assets/images/image-hero-landscape.webp"
+          alt="Smartphone with a bar graph on it."
+        />
+        <ul class="hero__showcase">
+          <li>
+            <h2>2K+</h2>
+            <p>Companies</p>
+          </li>
+          <li>
+            <h2>8</h2>
+            <p>Languages</p>
+          </li>
+          <li>
+            <h2>1.2M</h2>
+            <p>Leads</p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="content">
+      <section class="card">
+        <div class="card__author-picture">
+          <img
+            srcset="
+              ./assets/images/image-jeremy-large.webp 361w,
+              ./assets/images/image-jeremy-small.webp 243w
+            "
+            sizes="(min-width: 1440px) 361px, 243px"
+            src="./assets/images/image-jeremy-small.webp"
+            alt="Cowboy shot of Jeremy Robinson looking at a smartphone in a social top and glasses."
+          />
+          <img />
+        </div>
+        <h2 class="card__title">It just <strong>works.</strong></h2>
+        <blockquote class="card__quote">
+          “I really like how it is an all-in-one solution that handle many of
+          the tasks that you would normally need separate tools to do the same
+          job. This thing is a miracle worker.”
+        </blockquote>
+        <p class="card__author">Jeremy Robinson</p>
+        <p class="card__author-position">CMO, Fylo</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <img class="logo" src="./assets/images/logo.svg" alt="Suite logo ." />
+      <p class="footer__copyright">Copyright - Suite</p>
+      <ul class="footer__socials">
+        <li>
+          <a href="#">
+            <img
+              src="./assets/images/icon-facebook.svg"
+              alt="Suite facebook page."
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="./assets/images/icon-twitter.svg"
+              alt="Suite twitter account."
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="./assets/images/icon-instagram.svg"
+              alt="Suite instagram account."
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
