@@ -1,48 +1,51 @@
-# Frontend Mentor - Suite landing page solution
+# Frontend Mentor Challenge: Suite
 
-This is a solution to the [Suite landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/suite-landing-page-tj_eaU-Ra).
+This is a solution for the [Suite Landing Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/suite-landing-page-tj_eaU-Ra).
 
 ## Table of contents
 
-- [Frontend Mentor - Suite landing page solution](#frontend-mentor---suite-landing-page-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-  - [Author](#author)
+- [Overview](#overview)
+- [Development](#development)
+  - [Stack](#stack)
+  - [Workflow and Automation](#workflow-and-automation)
+- [Showcase](#showcase)
+  - [Links](#links)
+  - [Screenshots](#screenshots)
+- [Author](#author)
 
-## Overview
-
-### The challenge
+## <a name="overview">Overview 📋</a>
 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+## <a name="development">Development 🛠️</a>
 
-![](./screenshot.png)
+### Stack
+
+- **HTML5**
+- **CSS3**
+
+### Tools and Workflow
+
+- **GitHub Pages**
+- **Prettier**
+
+## <a name="showcase">Showcase 🖼️</a>
 
 ### Links
 
 - Solution URL: [Mobile-first solution using Flexbox, Grid and CSS Custom](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-grid-and-css-custom-properties-LMpqxN_gqc)
-- Live Site URL: [Frontend Mentor - Suite landing page](https://azganoth.github.io/suite-landing-page/)
+- Live Site URL: [Suite](https://azganoth.github.io/suite-landing-page/)
 
-## My process
+### Screenshots
 
-### Built with
+#### Landing page
 
-- HTML5
-  - Semantic markup
-- CSS3
-  - Custom properties
-  - Flexbox
-  - Grid
-- Mobile-first workflow
+![](/screenshot.png)
 
-## Author
+## <a name="author">Author ✍️</a>
 
 - Website - [Ademir José Ferreira Júnior](https://github.com/Azganoth)
 - Frontend Mentor - [@Azganoth](https://www.frontendmentor.io/profile/Azganoth)
