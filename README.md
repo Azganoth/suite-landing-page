@@ -7,7 +7,7 @@ This is a solution for the [Suite Landing Page challenge on Frontend Mentor](htt
 - [Overview](#overview)
 - [Development](#development)
   - [Stack](#stack)
-  - [Workflow and Automation](#workflow-and-automation)
+  - [Tools and Workflow](#tools-and-workflow)
 - [Showcase](#showcase)
   - [Links](#links)
   - [Screenshots](#screenshots)
